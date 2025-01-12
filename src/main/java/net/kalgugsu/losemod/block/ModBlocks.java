@@ -34,7 +34,7 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block CUTTING_BOARD = registerBlock("cutting_board",
-            new Block(AbstractBlock.Settings.create().strength(2f, 2f)
+            new CuttingBoardBlock(AbstractBlock.Settings.create().strength(2f, 2f)
                     .requiresTool().sounds(BlockSoundGroup.WOOD)));
 
     public static final Block HGFOOD_CROP = registerBlockWithoutBlockItem("hgfood_crop",
