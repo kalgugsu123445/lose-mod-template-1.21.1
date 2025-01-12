@@ -15,8 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item GEM_HG = registerItem("gem_hg", new Item(new Item.Settings()));
     public static final Item FAR_HG = registerItem("far_hg", new Item(new Item.Settings()));
-    public static final Item ADG_HG = registerItem("adj_hg", new Item(new Item.Settings()));
-    public static final Item CUTTING_BOARD = registerItem("cutting_board", new Item(new Item.Settings()));
+ 
 
 
     public static final Item HGFOOD = registerItem("hgfood", new Item(new Item.Settings().food(ModFoodComponents.HGFOOD)));
