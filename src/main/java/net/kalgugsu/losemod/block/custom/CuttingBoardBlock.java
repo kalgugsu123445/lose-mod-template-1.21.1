@@ -1,6 +1,7 @@
 package net.kalgugsu.losemod.block.custom;
 
-import com.mojang.serialization.Codec;
+
+import com.mojang.serialization.MapCodec;
 import net.kalgugsu.losemod.entity.CuttingBoardBlockEntity;
 import net.kalgugsu.losemod.entity.ModBlockEntities;
 import net.minecraft.block.*;
@@ -10,15 +11,15 @@ import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
 import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-import javax.swing.text.html.BlockView;
+
 
 public class CuttingBoardBlock extends BlockWithEntity implements BlockEntityProvider {
     private static final VoxelShape SHAPE = CuttingBoardBlock.createCuboidShape(0,0, 0,16,12,16);
@@ -58,7 +59,7 @@ public class CuttingBoardBlock extends BlockWithEntity implements BlockEntityPro
     }
 
     @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         if (!world.isClient) {
             NamedScreenHandlerFactory screenHandlerFactory = ((CuttingBoardBlockEntity) world.getBlockEntity(pos));
 
@@ -77,10 +78,11 @@ public class CuttingBoardBlock extends BlockWithEntity implements BlockEntityPro
                 (world1, pos, state1, blockEntity) -> blockEntity.tick(world1, pos, state1));
     }
 
+    public static final MapCodec<CuttingBoardBlock> CODEC = createCodec(CuttingBoardBlock::new);
+
+
     @Override
-    public Codec<CuttingBoardBlock> getCodec() {
-        return Codec.unit(this);
+    public MapCodec<CuttingBoardBlock> getCodec() {
+        return CODEC;
     }
-
-
 }
