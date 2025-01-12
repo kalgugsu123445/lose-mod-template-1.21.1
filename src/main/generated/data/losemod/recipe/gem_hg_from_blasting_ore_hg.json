@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.55,
+  "group": "gem_hg",
+  "ingredient": {
+    "item": "losemod:ore_hg"
+  },
+  "result": {
+    "id": "losemod:gem_hg"
+  }
+}

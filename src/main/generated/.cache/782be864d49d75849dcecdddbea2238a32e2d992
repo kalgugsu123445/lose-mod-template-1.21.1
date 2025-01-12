@@ -1,0 +1,6 @@
+// 1.21.1	2024-12-28T21:47:31.5948284	Lose Mod/Block Loot Tables
+370959432c9bcf11281dc9f099a1d8e2f145a82a data\losemod\loot_table\blocks\hgfood_crop.json
+e52d39370941b9dfec71da6844dfc153c9440942 data\losemod\loot_table\blocks\cy_hg.json
+2904750500d6a5e9ffc75ae97d76103f2503cc94 data\losemod\loot_table\blocks\adj_hg.json
+4116573d98b61fa65612521d1431b1d78178cb6d data\losemod\loot_table\blocks\sld_hg.json
+6ba8035536c56fa06537625ee6434b90288524e0 data\losemod\loot_table\blocks\ore_hg.json

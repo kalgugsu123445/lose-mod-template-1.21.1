@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hgfood_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "losemod:hgfood_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "losemod:hgfood_seeds"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hgfood_seeds"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "losemod:hgfood_seeds"
+    ]
+  }
+}

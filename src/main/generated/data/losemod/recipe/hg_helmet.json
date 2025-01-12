@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:iron_helmet"
+    },
+    "F": {
+      "item": "losemod:adj_hg"
+    },
+    "S": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FCF",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "losemod:hg_helmet"
+  }
+}

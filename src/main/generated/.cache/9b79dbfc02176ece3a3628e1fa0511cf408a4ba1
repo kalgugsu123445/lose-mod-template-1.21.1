@@ -1,0 +1,5 @@
+// 1.21.1	2024-12-28T21:47:31.5978283	Lose Mod/
+e6c48dd1c6ef579868a4821439122ecda6f6f92d data\losemod\worldgen\placed_feature\hg_ore_placed.json
+566013ec3d95ed5b3085e2be26c4d102ed2f1429 data\losemod\enchantment\healing.json
+a79dc3ec85101f6b3f6d633c521e5435ea7d2ff7 data\losemod\enchantment\lose.json
+bf9790dde5e488de42ee8ad21a8e6a627c6b8246 data\losemod\worldgen\configured_feature\hg_ore.json

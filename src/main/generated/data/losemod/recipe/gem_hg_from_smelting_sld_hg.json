@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 350,
+  "experience": 0.35,
+  "group": "gem_hg",
+  "ingredient": {
+    "item": "losemod:sld_hg"
+  },
+  "result": {
+    "id": "losemod:gem_hg"
+  }
+}

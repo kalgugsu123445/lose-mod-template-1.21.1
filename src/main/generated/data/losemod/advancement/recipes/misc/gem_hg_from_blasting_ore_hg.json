@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ore_hg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "losemod:ore_hg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gem_hg_from_blasting_ore_hg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ore_hg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gem_hg_from_blasting_ore_hg"
+    ]
+  }
+}

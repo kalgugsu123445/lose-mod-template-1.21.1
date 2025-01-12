@@ -1,0 +1,8 @@
+// 1.21.1	2024-12-28T21:47:31.5958281	Lose Mod/Tags for minecraft:item
+94893f0c430e2e12adba29892a8655b43d418377 data\losemod\tags\item\transforhg_items.json
+130de23a7b26a651a39c332ad630196909b1a948 data\minecraft\tags\item\pickaxes.json
+2bedf8cbc7a68b42ada8b0b07c9ae851c5b3bace data\minecraft\tags\item\trimmable_armor.json
+ed0489eedc0d082e9a3493ccd9ab094b37b18a47 data\minecraft\tags\item\shovels.json
+0d5ae1fbdf810e76a52b05859cca8a9680d5c803 data\minecraft\tags\item\hoes.json
+845a1ef63c31167725e1a201010163af2a82e754 data\minecraft\tags\item\axes.json
+2becf925835475e42db3020a7089d7d30d9d69bc data\minecraft\tags\item\swords.json

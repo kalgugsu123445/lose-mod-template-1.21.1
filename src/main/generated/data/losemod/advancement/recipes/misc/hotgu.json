@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hotgu": {
+      "conditions": {
+        "items": [
+          {
+            "items": "losemod:hotgu"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "losemod:hotgu"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hotgu"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "losemod:hotgu"
+    ]
+  }
+}

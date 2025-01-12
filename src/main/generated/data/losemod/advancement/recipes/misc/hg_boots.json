@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hg_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "losemod:hg_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "losemod:hg_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hg_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "losemod:hg_boots"
+    ]
+  }
+}

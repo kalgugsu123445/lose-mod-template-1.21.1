@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "losemod:cy_hg"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "losemod:far_hg"
+  }
+}

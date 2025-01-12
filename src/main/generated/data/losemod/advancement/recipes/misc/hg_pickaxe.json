@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hg_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "losemod:hg_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "losemod:hg_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hg_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "losemod:hg_pickaxe"
+    ]
+  }
+}

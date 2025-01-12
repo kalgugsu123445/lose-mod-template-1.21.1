@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sld_hg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "losemod:sld_hg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gem_hg_from_smelting_sld_hg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sld_hg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gem_hg_from_smelting_sld_hg"
+    ]
+  }
+}

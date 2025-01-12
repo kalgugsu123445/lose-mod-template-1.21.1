@@ -1,0 +1,66 @@
+{
+  "item.losemod.gem_hg": "우는 보석",
+  "item.losemod.far_hg": "우는 파편",
+  "item.losemod.hotgu": "패배한 분노",
+  "item.losemod.hgfood": "만성초",
+  "item.losemod.octopus": "문어",
+  "item.losemod.ginseng": "인삼",
+  "item.losemod.chestnut": "밤",
+  "item.losemod.rice": "쌀",
+  "item.losemod.flour": "밀가루",
+  "item.losemod.universal_sauce": "만능소스",
+  "item.losemod.oil": "기름",
+  "item.losemod.chunjang": "춘장",
+  "item.losemod.red_pepper_powder": "고춧가루",
+  "item.losemod.salted_shrimp": "새우젓",
+  "item.losemod.minced_garlic": "다진마늘",
+  "item.losemod.salt": "소금",
+  "item.losemod.radish": "무",
+  "item.losemod.fish_sauce": "액젓",
+  "item.losemod.soy_sauce": "간장",
+  "item.losemod.plum": "매실",
+  "item.losemod.plum_extract": "매실청",
+  "item.losemod.bay_leaf": "월계수 잎",
+  "item.losemod.cooked_rice": "밥",
+  "item.losemod.onion": "양파",
+  "item.losemod.spring_onion": "대파",
+  "item.losemod.napa_cabbage": "배추",
+  "item.losemod.shrimp": "새우",
+  "item.losemod.garlic": "마늘",
+  "item.losemod.jujube": "대추",
+  "item.losemod.glutinous_rice": "찹쌀",
+  "item.losemod.bean": "콩",
+  "item.losemod.ginger": "생강",
+
+
+  "item.losemod.hgfood_seeds": "만성 씨앗",
+
+  "item.losemod.hg_sword": "패배 검",
+  "item.losemod.hg_pickaxe": "패배 곡괭이",
+  "item.losemod.hg_axe": "패배 도끼",
+  "item.losemod.hg_shovel": "패배 삽",
+  "item.losemod.hg_hoe": "패배 괭이",
+
+
+  "item.losemod.hg_helmet": "밟힌 투구",
+  "item.losemod.hg_chestplate": "패배 흉갑",
+  "item.losemod.hg_leggings": "우는 레깅스",
+  "item.losemod.hg_boots": "겁쟁 부츠",
+
+
+  "block.losemod.adj_hg": "고된 황블록",
+  "block.losemod.cy_hg": "뭉친 황석",
+  "block.losemod.sld_hg": "심층암 황석",
+  "block.losemod.ore_hg": "구 황석",
+
+  "block.losemod.hgfood_crop": "만성한 작물",
+
+  "itemgroup.losemod.hg_item": "황구 아이템",
+  "itemgroup.losemod.hg_block": "황구 블록",
+  "itemgroup.losemod.hg_weapon": "황구 장비",
+
+  "enchantment.losemod.lose": "좌절",
+  "enchantment.losemod.healing": "병주고 약주고"
+
+
+}

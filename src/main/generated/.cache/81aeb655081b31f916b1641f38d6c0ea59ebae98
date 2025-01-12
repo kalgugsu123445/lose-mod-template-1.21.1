@@ -1,0 +1,5 @@
+// 1.21.1	2024-12-28T21:47:31.5988285	Lose Mod/Tags for minecraft:block
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\losemod\tags\block\needs_hg_tool.json
+503b860c004e696518db1694cf905cb6c3045892 data\minecraft\tags\block\needs_iron_tool.json
+9d827eae43a8e12efbdab1204b736d746eaf925a data\minecraft\tags\block\mineable\pickaxe.json
+425fcbd4b843a221ac099c41ed7a5a59154ebbe3 data\minecraft\tags\block\needs_diamond_tool.json

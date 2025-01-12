@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "F": {
+      "item": "losemod:hotgu"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "SFS",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "losemod:hgfood_seeds"
+  }
+}
